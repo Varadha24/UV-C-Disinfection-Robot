@@ -1,4 +1,4 @@
-# UV-C-Disinfection-Robot
+# UV-C-Disinfectant-Robot
 This repository contains the code and documentation for our final year engineering project: an autonomous UV-C disinfection robot designed for hospital isolation wards. 
 The robot utilizes an Arduino Uno microcontroller for control and leverages UV-C light technology for efficient surface sterilization.
 

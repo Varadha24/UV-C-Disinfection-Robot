@@ -1,29 +1,12 @@
 # UV-C-Disinfectant-Robot
-This repository contains the code and documentation for our final year engineering project: an autonomous UV-C disinfection robot designed for the sterilization of isolation wards of hospitals. 
-The robot utilizes an Arduino Uno microcontroller for control and leverages UV-C light technology for efficient surface sterilization.
+Developed a fully autonomous UV-C disinfection robot prototype for hospital wards, powered by Raspberry Pi and programmed in Python with ROS navigation stack. Utilized LiDAR for localization, ultrasonic sensors for close-range obstacle detection, IMU and motor encoders for accurate movement tracking, and a relay-controlled 360° UV-C lamp system for comprehensive surface and air disinfection. The robot navigated using a predefined ward map with waypoint planning, integrated safety features such as PIR human detection, obstacle-triggered UV-C shutdown, and an emergency stop button. Demonstrated the solution in a scaled-down hospital ward model, achieving reliable autonomous operation, dynamic obstacle avoidance, and full disinfection coverage.
 
 #FEATURES:
 
-*Autonomous Navigation: Employs line following and obstacle detection algorithms for self-directed movement within isolation wards. (Code and configuration files included)
+* Map-Based Navigation using LiDAR & preloaded ward map.
 
-*UV-C Disinfection: Utilizes strategically placed UV-C lamps for 360-degree disinfection of surfaces and airborne pathogens.
+* 360° Disinfection covering all surfaces and air.
 
-*Arduino Uno Control: Leverages Arduino Uno for central control, sensor integration, and decision-making. (Code included)
+* Dynamic Obstacle Avoidance using LiDAR + ultrasonic fusion.
 
-*Sensor Integration: Integrates infrared and ultrasonic sensors for obstacle detection and safe navigation. (Sensor configuration details provided)
-
-#HARDWARE REQUIREMENTS:
-
-*Arduino Uno microcontroller
-
-*L298N motor driver
-
-*UV-C lamps
-
-*Infrared and ultrasonic sensors (models and wiring details provided)
-
-*Additional components (e.g., motors, wheels, chassis)
-
-#SOFTWARE REQUIREMENTS:
-
-*Arduino IDE
+* Human Safety via PIR sensors, emergency stop, and UV interlocks.
